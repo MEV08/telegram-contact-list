@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="checkmark" viewBox="0 0 78.369 78.369">
+            <g>
+                <path d="M78.049,19.015L29.458,67.606c-0.428,0.428-1.121,0.428-1.548,0L0.32,40.015c-0.427-0.426-0.427-1.119,0-1.547l6.704-6.704
+                    c0.428-0.427,1.121-0.427,1.548,0l20.113,20.112l41.113-41.113c0.429-0.427,1.12-0.427,1.548,0l6.703,6.704
+                    C78.477,17.894,78.477,18.586,78.049,19.015z"/>
+            </g>
+        </symbol>
+        <symbol id="doublecheckmark" viewBox="0 0 512 512">
+            <g><path d="m473.074 120.729-203.295 203.296-21.212-21.212 153.765-153.764-38.926-38.926-153.765 153.765-61.047-61.047-38.926 38.926 61.047 61.047-21.211 21.211-110.578-110.577-38.926 38.926 149.503 149.503 60.138-60.137 60.137 60.137 242.222-242.221z"/></g>
+        </symbol>
+    </svg>
+<aside class="sidebar">
+    <div class="sidebar-header">
+        info
+    </div>
+    <div class="dialog-list">
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/avatar-4.jpg" alt="">
+            </div>
+            <div class="dialog-item__content"> 
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="person-img" src="img/person-icon.jpg" alt="">
+                        <span>Кодим на интенсиве</span>
+                    </div>
+                    <div class="dialog-txt">
+                        <span class="participant">Владислав:</span>
+                        <span>https://impuls-web.ru/plavnaya-prokrutka-stranicy-do-yakorya/
+                        А в css максимум 
+                        *{scroll-behavior: smooth; } 
+                        или
+                        html{scroll-behavior: smooth;}
+                        И то в сафари не поддерживается ) так что не мучайте, и используйте jquery</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">                              
+                        <time class="datetime" datetime="2021-02-22 1:40">1:40</time>
+                    </div>
+                    <div class="message-info">148</div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/avatar-1.jpg" alt="">
+            </div>
+            <div class="dialog-item__content"> 
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <span>Артем Жуков</span>
+                    </div>
+                    <div class="dialog-txt">
+                        <span class="participant">You:</span>
+                        <span>Ты не отвлекаешь - я бы сказал</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">
+                        <svg class="double-checkmark">
+                            <use xlink:href="#doublecheckmark"></use>
+                        </svg>                               
+                        <time class="datetime" datetime="2021-02-22 1:08">1:08</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/proangl.jpg" alt="">
+            </div>
+            <div class="dialog-item__content">    
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="speaker" src="img/speaker.jpg " alt="">
+                        <span>PRO Английский футбол</span>
+                    </div>    
+                    <div class="dialog-txt">
+                        <span class="participant">Photo,</span>
+                        <span>«МЮ» вслед за «МС» и «Лестером» добывает 3 очка</span>
+                        <img src="img/evil.jpg" alt="">
+                        <span>До этого успеха два тура подряд не могли победить, «Сити» уже далековато</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">                              
+                        <time class="datetime" datetime="2021-02-22 23:52">23:52</time>
+                    </div>
+                    <div class="message-info">16</div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <div class="avatar-subctitute">ДП</div>
+            </div>
+            <div class="dialog-item__content"> 
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <span>Дмитрий Поляков</span>
+                    </div>
+                    <div class="dialog-txt">
+                        <span class="participant">You:</span>
+                        <span>А дальше бери еще курсы от них же</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">
+                        <svg class="checkmark">
+                            <use xlink:href="#checkmark"></use>
+                        </svg>                               
+                        <time class="datetime" datetime="2021-02-22 23:37">23:37</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/avatar-3.jpg" alt="">
+            </div>
+            <div class="dialog-item__content">    
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="speaker" src="img/speaker.jpg " alt="">
+                        <span>Okko Спорт</span>
+                        <img class="blue-checkmark" src="img/blue-checkmark.jpg" alt="">
+                    </div>    
+                    <div class="dialog-txt">
+                        <span class="participant">Photo,</span>
+                        <span>Представляем вашему вниманию основную сетку турнира в Монпелье, который пройдет на крытом хардовом корте местного комплекса Sud de France Arena c 22 по 28 февраля.</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">
+                        <svg class="checkmark">
+                            <use xlink:href="#checkmark"></use>
+                        </svg>                               
+                        <time class="datetime" datetime="2021-02-22 23:07">23:07</time>
+                    </div>
+                    <div class="message-info">15</div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/frontend-interview.jpg" alt="">
+            </div>
+            <div class="dialog-item__content">    
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="speaker" src="img/speaker.jpg " alt="">
+                        <span>Frontend Interview - собеседования по Javascript / Html / CSS</span>
+                    </div>    
+                    <div class="dialog-txt">
+                        <span>React_и_Redux_функциональная_веб_разработка_PDFDrive_.pdf</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">                              
+                        <time class="datetime" datetime="2021-02-22 21:01">21:01</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/worky-club.jpg" alt="">
+            </div>
+            <div class="dialog-item__content">    
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="speaker" src="img/speaker.jpg " alt="">
+                        <span>worky.club | Удаленка | Фриланс | Обучение</span>
+                    </div>    
+                    <div class="dialog-txt">
+                        <span>Консультант в интернет-магазин
+                            Обязанности:
+                            • продажа товаров интернет-магазина;
+                            • самостоятельный поиск и привлечение новых клиентов;
+                            • консультирование клиентов по ассортименту и акциям.</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">                              
+                        <time class="datetime" datetime="2021-02-22 19:09">19:09</time>
+                    </div>
+                    <div class="message-info">3</div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog-item">
+            <div class="avatar">
+                <img class="dialog-photo" src="img/avatar-2.jpg" alt="">
+            </div>
+            <div class="dialog-item__content">    
+                <div class="dialog-msg">
+                    <div class="dialog-name">
+                        <img class="speaker" src="img/speaker.jpg " alt="">
+                        <span>Frontender`s notes</span>
+                    </div>    
+                    <div class="dialog-txt">
+                        <span class="participant">Photo,</span>
+                        <span>Clubhouse. Почему столько хайпа?
+                            Потому что в него якобы сложно попасть.. Всё. 
+                            ...а нет, еще сервис упомянул Илон Маск. Теперь всё.
+                            На рынке аудиосоцсетей есть минимум 26 подобных сервисов. И все они круто работают, в том числе на Android.</span>
+                    </div>
+                </div>
+                <div class="dialog-data">
+                    <div class="dialog-data__info">                              
+                        <time class="datetime" datetime="2021-02-22 18:39">18:39</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+</aside>
+</body>
+</html>

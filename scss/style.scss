@@ -1,0 +1,23 @@
+@import "vars";
+
+
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Tahoma, sans-serif, Arial, Helvetica;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+h1, h2, h3, h4, h5, h6, p, hr {
+    margin: 0;
+}
+
+/* Blocks */
+@import "blocks/sidebar";
+@import "blocks/dialog";
