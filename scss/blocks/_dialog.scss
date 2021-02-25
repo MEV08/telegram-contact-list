@@ -7,7 +7,7 @@
     width: 100%;
     height: 62px;
     display: flex;
-    overflow: hidden;
+    // overflow: hidden;
     background-color: $white;
 
     &:hover {
@@ -17,6 +17,7 @@
 }
 .dialog-item__content {
     width: calc(100% - 58px);
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -43,17 +44,28 @@
 }
 .dialog-msg {
     display: block;
-    height: 44px;
-    width: calc(100% - 45px);
+    height: auto;
+    width: 100%;
     overflow: hidden;
 }
 .dialog-name {
+    display: flex;
+    justify-content: space-between;
     margin: 3px 0;
     font-size: 13px;
     font-weight: 700;
+}
+.dialog-name__info {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.dialog-main {
+    max-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible ;
 }
 .dialog-txt {
     color: $grey;
@@ -64,15 +76,12 @@
 .participant {
     color: #487B98 ;
 }
-.dialog-data {
-    position: relative;
-    font-size: 11px;
-    color: $semi-grey;
-}
 .dialog-data__info {
     display: flex;
     justify-content: flex-end;
     height: 18px;
+    font-size: 11px;
+    color: $semi-grey;
 }
 .checkmark {
     margin-right: 5px;
@@ -90,13 +99,11 @@
     height: 18px;
 }
 .message-info {
-    position: absolute;
-    margin-top: 4px;
+    height: 100%;
+    width: auto;
     padding: 5px;
     display: inline-block;
-    height: 21px;
-    min-width: 21px;
-    right: 0;
+    height: auto;
     text-align: center;
     vertical-align: baseline;
     line-height: 1;
@@ -104,6 +111,12 @@
     font-weight: 700;
     background-color: $semi-grey;
     color: $white;
-    border-radius: 11px;
-    white-space: nowrap;
+    border-radius: 12px;
+    &--bg {
+        background-color: $blue;
+        border-radius: 50%;
+    }
+    &--helper {
+        min-width: 21px;
+    }
 }
